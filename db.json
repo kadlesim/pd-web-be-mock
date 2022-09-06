@@ -1,12 +1,126 @@
 {
-  "posts": [
-    { "id": 1, "title": "test 1" },
-    { "id": 2, "title": "test 2" },
-    { "id": 3, "title": "test 3" }
+  "events": [
+    {
+      "id": 137,
+      "caption": "Trenink",
+      "type": "TRA",
+      "description": "Zkouska treninku",
+      "closeTime": "2017-12-18T17:00:00.000Z",
+      "startTime": "2017-12-18T17:00:00.000Z",
+      "endTime": "2017-12-18T19:00:00.000Z",
+      "link": "",
+      "place": "Kdesix",
+      "canView": true,
+      "canPlan": true,
+      "canResult": false,
+      "inPast": false,
+      "inFuture": true
+    },
+    {
+      "id": 136,
+      "caption": "Trenink",
+      "type": "TRA",
+      "description": "Zkouska treninku",
+      "closeTime": "2017-12-11T17:00:00.000Z",
+      "startTime": "2017-12-11T17:00:00.000Z",
+      "endTime": "2017-12-11T19:00:00.000Z",
+      "link": "",
+      "place": "Kdesiffff",
+      "canView": true,
+      "canPlan": true,
+      "canResult": false,
+      "inPast": false,
+      "inFuture": true
+    },
+    {
+      "id": 135,
+      "caption": "Trenink",
+      "type": "TRA",
+      "description": "Zkouska treninku",
+      "closeTime": "2017-12-04T17:00:00.000Z",
+      "startTime": "2017-12-04T17:00:00.000Z",
+      "endTime": "2017-12-04T19:00:00.000Z",
+      "link": "",
+      "place": "Kdesi",
+      "canView": true,
+      "canPlan": true,
+      "canResult": false,
+      "inPast": false,
+      "inFuture": true
+    },
+    {
+      "id": 134,
+      "caption": "Trenink",
+      "type": "TRA",
+      "description": "Zkouska treninku",
+      "closeTime": "2017-11-27T17:00:00.000Z",
+      "startTime": "2017-11-27T17:00:00.000Z",
+      "endTime": "2017-11-27T19:00:00.000Z",
+      "link": "",
+      "place": "Kdesi",
+      "canView": true,
+      "canPlan": true,
+      "canResult": false,
+      "inPast": false,
+      "inFuture": true
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id" : 4,
+      "login" : "TEST_BOY",
+      "canLogin" : true,
+      "canEditCallName" : false,
+      "createdAt" : "2014-02-21T13:19:29.000Z",
+      "status" : "PLAYER",
+      "firstName" : "Jenicek",
+      "lastName" : "",
+      "callName" : "TEST_BOY",
+      "language" : "CZ",
+      "jerseyNumber" : "1",
+      "gender" : "MALE",
+      "street" : "",
+      "city" : "",
+      "zipCode" : "",
+      "phone" : "",
+      "phone2" : "",
+      "nameDayMonth" : 0,
+      "nameDayDay" : 0,
+      "pictureUrl" : "/user_pics/4.png",
+      "fullName" : "Jenicek ",
+      "displayName" : "TEST_BOY"
+    }, {
+      "id" : 5,
+      "login" : "TEST_GIRL",
+      "canLogin" : true,
+      "canEditCallName" : false,
+      "createdAt" : "2014-02-21T13:19:51.000Z",
+      "status" : "PLAYER",
+      "firstName" : "marenka",
+      "lastName" : "",
+      "callName" : "TEST_GIRL",
+      "language" : "CZ",
+      "jerseyNumber" : "",
+      "gender" : "FEMALE",
+      "street" : "",
+      "city" : "",
+      "zipCode" : "",
+      "phone" : "",
+      "phone2" : "",
+      "nameDayMonth" : 0,
+      "nameDayDay" : 0,
+      "pictureUrl" : "/user_pics/5.png",
+      "fullName" : "marenka ",
+      "displayName" : "TEST_GIRL"
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "caption": "Nejlepsi vysledek",
+      "long_text": "asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf",
+      "created_at": "2014-02-21T13:19:51.000Z"
+    }
   ],
   "profile": {
     "name": "pd-web-be-mock"
