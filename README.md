@@ -6,3 +6,6 @@ Available at https://my-json-server.typicode.com/kadlesim/pd-web-be-mock
 
 ### Use
 just update ```db.json``` with required data, limit on file is 10kb
+
+### example
+get event with ```id: 137``` https://my-json-server.typicode.com/kadlesim/pd-web-be-mock/events/137
